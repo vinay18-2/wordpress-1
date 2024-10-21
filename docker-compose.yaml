@@ -8,7 +8,7 @@ services:
       - db_data:/var/lib/mysql
     restart: always
     environment:
-      - MYSQL_ROOT_PASSWORD=wordpress
+      - MYSQL_ROOT_PASSWORD=wordpress1
       - MYSQL_DATABASE=vinay
       - MYSQL_USER=vinny
       - MYSQL_PASSWORD=9966774360
